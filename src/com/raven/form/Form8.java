@@ -41,7 +41,6 @@ public class Form8 extends javax.swing.JPanel {
         initComponents();
         setOpaque(false);
         init();
-        //  Animator start form animatePoint to TagetPoint
         animator = PropertySetter.createAnimator(500, mainPanel1, "imageLocation", animatePoint, mainPanel1.getTargetLocation());
         animator.addTarget(new PropertySetter(mainPanel1, "imageSize", new Dimension(180, 120), mainPanel1.getTargetSize()));
         animator.addTarget(new TimingTargetAdapter() {
@@ -126,7 +125,6 @@ public class Form8 extends javax.swing.JPanel {
             itemListWomen.add(new ModelItem(23, "WILDCAT 2.0 GTX WOMENS", "The Wildcat 2.0 GTX Women's is a highly stable, neutral trail runner that provides excellent cushioning and a secure fit. The waterproof Gore-Tex® lining keeps your feet dry in wet conditions, and the aggressive outsole and supple midsole combine to ensure comfort and stability on rough trails.", 1, 175, "Adidas", 175, new ImageIcon(getClass().getResource("/com/raven/images/wm23.png"))));
 //itemListWomen.add(new ModelItem(1, "BUSHIDO III WIDE WOMENS", "This.", 160, "Adidas", new ImageIcon(getClass().getResource("/com/raven/images/wm1.png"))));
             
-
             
             home.setEvent(new EventItem() {
             @Override
