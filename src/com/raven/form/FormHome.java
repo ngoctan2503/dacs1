@@ -209,7 +209,7 @@ public class FormHome extends javax.swing.JPanel {
     }//GEN-LAST:event_jButton1MouseExited
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        ImageIcon customIcon = new ImageIcon("C:\\Xaydungungdungmuabangiaytrendesktop - Copy\\src\\com\\raven\\icon\\tichxanh.png");
+        ImageIcon customIcon = new ImageIcon("C:\\Xaydungungdungmuabangiaytrendesktop\\src\\com\\raven\\icon\\tichxanh.png");
         String priceText = lbPrice.getText().replace("$", "").replace(",", "");
         double price = Double.parseDouble(priceText);
         try {

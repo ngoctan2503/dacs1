@@ -192,7 +192,7 @@ public class Testt extends javax.swing.JPanel {
 
     private void buySelectedItems() {
     DefaultTableModel model = (DefaultTableModel) table.getModel();
-    ImageIcon customIcon = new ImageIcon("C:\\Xaydungungdungmuabangiaytrendesktop - Copy\\src\\com\\raven\\icon\\tichxanh.png");
+    ImageIcon customIcon = new ImageIcon("C:\\Xaydungungdungmuabangiaytrendesktop\\src\\com\\raven\\icon\\tichxanh.png");
     boolean anyItemSelected = false;
    
     for (int i = 0; i < table.getRowCount(); i++) {
